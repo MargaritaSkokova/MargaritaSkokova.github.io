@@ -1,1 +1,84 @@
-<h1>Hello, World!</h1>
+<!doctype html>
+<html class="no-js" lang="ru">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tarot</title>
+  <link rel="stylesheet" href="css/style.css">
+
+  <link rel="icon" href="/icon_white.ico" sizes="any">
+  <link rel="icon" href="/icon_white.svg" type="image/svg+xml">
+  <link rel="icon" type="image/x-icon" href="./favicon.ico">
+  <link rel="apple-touch-icon" href="icon_white.png">
+
+</head>
+
+<header id="header">
+  <img id="icon" src="tarot_icon.png" width="55" height="55" alt="tarot logo"/>
+  <h1 id="name_app">TAROT</h1>
+  <nav id="navigation">
+    <a href="" class="button_nav">
+      <img class="button_icon" src="home.png" alt="img"/>
+      Home
+    </a>
+
+    <a href="" class="button_nav">
+      <img class="button_icon" src="book_open.png" alt="img"/>
+      Расклады
+    </a>
+
+    <a href="" class="button_nav">
+      <img class="button_icon" src="heart.png" alt="img"/>
+      Значения
+    </a>
+
+    <a href="" class="button_nav">
+      <img class="button_icon" src="profile.png" alt="img"/>
+      Профиль
+    </a>
+    <button type="button" class="button_sign">Войти</button>
+  </nav>
+</header>
+<main>
+  <div id="text_block">
+    <p id="text_first">Узнайте свою судьбу</p>
+    <p id="text_second"> Карты таро —
+      колода карт, используемая с середины XIV века в различных частях Европы для карточных игр, во многие из которых
+      играют
+      и сегодня. С конца XVIII века карты таро стали использоваться и для предсказания.</p>
+  </div>
+
+  <div id="image_block">
+    <img src="back.jpg" alt="card_back" class="images" id="image_first">
+    <img src="back.jpg" alt="card_back" class="images" id="image_second">
+    <img src="moon.png" alt="card_moon" class="images" id="image_third">
+  </div>
+  <p id="text_third" >Виды предлагаемых раскладов: </p>
+  <ul id="list"
+    style="list-style-type: '&#10085'">
+    <li>Ежедневный</li>
+    <li>Еженедельный</li>
+    <li>Любовный</li>
+    <li>Для работы</li>
+    <li>Ответ на вопросы</li>
+  </ul>
+  <code>val show = remember { <br>
+    &nbsp&nbsp&nbsp&nbspmutableStateOf(false) <br>
+  } <br>
+  var close by remember {<br>
+    &nbsp&nbsp&nbsp&nbspmutableStateOf(false) <br>
+  }</code>
+
+  <p><sub>- Цель образования - научить думать.<br>
+    - В их возрасте? </sub>Ни в коем случае!<br>
+  <sup>"Клуб мертвых писателей"</sup></p>
+</main>
+<footer>
+  &#0169 maranln
+</footer>
+
+
+</body>
+
+</html>

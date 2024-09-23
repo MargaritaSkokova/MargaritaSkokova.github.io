@@ -1,0 +1,170 @@
+@font-face {
+  font-family: CormorantSC;
+  src: url('Cormorantsc.ttf');
+}
+
+@font-face {
+  font-family: Сleanvertising;
+  src: url('cleanvertising-light.ttf');
+}
+
+@font-face {
+  font-family: CormorantSC;
+  font-weight: bold;
+  src: url('Cormorantscbold.ttf');
+}
+
+h1 {
+  font-family: CormorantSC, Arial, Helvetica, sans-serif;
+  font-weight: normal;
+}
+
+body {
+  background-color: #f0eef4
+}
+
+#header {
+  width: 100%
+}
+
+#icon {
+  display: inline; 
+  vertical-align: 20px
+}
+
+#name_app {
+  color: #48466C; 
+  display: inline; 
+  font-size: 48px; 
+  vertical-align: 30px;
+  font-weight: bold;
+}
+
+#navigation {
+  display: inline; 
+  float: right; 
+  margin-left: 5px; 
+  margin-right: 5px; 
+  margin-top: 10px
+}
+
+#text_block {
+  display: inline-block
+}
+
+#text_first {
+  color: #9C9AC0; 
+  width: 600px; 
+  font-family: CormorantSC; 
+  font-size: 80px;
+  margin-left: 70px
+}
+
+#text_second {
+  color: #48466C; 
+  width: 450px; 
+  font-family: Сleanvertising; 
+  font-size: 24px; 
+  margin-left: 70px; 
+}
+
+#image_block {
+  display: inline-block; 
+  position: relative
+}
+
+.images {
+  height: 350px; 
+  box-shadow: 0 10px 20px #9C9AC0; 
+  border-radius: 10px; 
+}
+
+#image_first {
+  rotate: -30deg; 
+  position: relative;  
+  left: 200px; 
+  margin-top: 10px;
+}
+
+#image_second {
+  rotate: -15deg; 
+  position: absolute; 
+  left: 350px; 
+  margin-top: -40px;
+}
+
+#image_third {
+  rotate: 0deg; 
+  position: absolute; 
+  left: 500px; 
+  margin-top: -50px;
+}
+
+#text_third {
+  color: #9C9AC0; 
+  width: 100%; 
+  font-family: CormorantSC;
+  font-size: 40px; 
+  margin-left: 0px; 
+  margin-top: 90px; 
+  text-align: center
+}
+
+#list {
+  color: #48466C; 
+  width: fit-content; 
+  font-family: Сleanvertising; 
+  font-size: 24px; 
+  position: relative; 
+  left: 43%
+}
+
+footer {
+  color: #9C9AC0; 
+  width: 100%; 
+  font-family: CormorantSC; 
+  font-size: 24px; 
+  margin-left: 0px; 
+  margin-top: 90px; 
+  text-align: center
+}
+
+.button_sign {
+  background-color: #48466C;
+  border: none;
+  color: white;
+  padding: 12px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 20px; 
+  font-family: Сleanvertising;
+  transition: background-color.3s;
+  margin-right: 8px;
+  margin-left: 8px;
+  vertical-align: 10px
+}
+
+.button_sign:hover {
+  background-color: #9C9AC0;
+}
+
+.button_icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 4px;
+  margin-left: 8px;
+  vertical-align: -5px;
+}
+
+
+.button_nav {
+  font-family: Сleanvertising;
+  font-weight: bold;
+  vertical-align: 10px;
+  text-decoration: none;
+  color: #48466C;
+}
+
+.button_nav:hover {
+  color: #9C9AC0;
+}
