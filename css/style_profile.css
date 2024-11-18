@@ -1,0 +1,128 @@
+@font-face {
+    font-family: CormorantSC;
+    src: url('Cormorantsc.ttf');
+}
+
+@font-face {
+    font-family: Сleanvertising;
+    src: url('cleanvertising-light.ttf');
+}
+
+@font-face {
+    font-family: CormorantSC;
+    font-weight: bold;
+    src: url('Cormorantscbold.ttf');
+}
+
+@font-face {
+    font-family: Raleway;
+    src: url("Raleway-VariableFont_wght.ttf");
+}
+
+@font-face {
+    font-family: Raleway;
+    font-weight: 200;
+    src: url("Raleway-Light.ttf");
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.text-heading {
+    color: #9C9AC0;
+    font-size: 80px;
+    font-family: CormorantSC, Arial, Helvetica, sans-serif;
+}
+
+.text-normal {
+    color: #48466C;
+    font-family: Raleway, serif;
+    font-size: 20px;
+}
+body {
+    background-color: #f0eef4
+}
+
+.header {
+    width: 100%
+}
+
+footer {
+    color: #9C9AC0;
+    width: 100%;
+    font-family: CormorantSC, Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    margin-left: 0;
+    margin-top: 90px;
+    text-align: center
+}
+
+.navigation__button__sign-in {
+    background-color: #48466C;
+    border: none;
+    color: white;
+    padding: 12px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 20px;
+    font-family: Сleanvertising, serif;
+    transition: background-color .3s;
+    margin-right: 8px;
+    margin-left: 8px;
+    vertical-align: 10px
+}
+
+.navigation__button__sign-in:hover {
+    background-color: #9C9AC0;
+}
+
+.button__icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 4px;
+    margin-left: 8px;
+    vertical-align: -5px;
+}
+
+
+.navigation__button {
+    font-family: Сleanvertising, serif;
+    font-weight: bold;
+    vertical-align: 10px;
+    text-decoration: none;
+    color: #48466C;
+}
+
+.navigation__button:hover {
+    color: #9C9AC0;
+}
+
+#icon {
+    display: inline;
+    vertical-align: 20px;
+    width: 55px;
+    height: 55px;
+}
+
+#name-app {
+    color: #48466C;
+    display: inline;
+    font-size: 48px;
+    vertical-align: 30px;
+    font-family: CormorantSC, Arial, Helvetica, sans-serif;
+}
+
+#navigation {
+    display: inline;
+    float: right;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 10px
+}
+
+@media (max-width: 499px) {
+    #name-app {
+        font-size: 0;
+    }
+}

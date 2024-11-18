@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Tarot</title>
     <link rel="stylesheet" href="css/style_meaning.css">
+    <script src="./js/app.js"></script>
+
     <link rel="icon" href="/icon_white.ico" sizes="any">
     <link rel="icon" href="/icon_white.svg" type="image/svg+xml">
     <link rel="icon" type="image/x-icon" href="./favicon.ico">
@@ -16,281 +18,282 @@
 
 <header class="header">
     <img id="icon" src="tarot_icon.png" alt="tarot logo"/>
-    <h1 id="name_app">TAROT</h1>
+    <h1 id="name-app">TAROT</h1>
     <nav id="navigation">
-        <a href="" class="navigation_button" id="navigation_button_home">
-            <img class="button_icon" src="home.png" alt="img" id="home_button_image"/>
+        <a href="index.html" class="navigation__button" id="navigation___button___home">
+            <img class="button__icon" src="home.png" alt="img" id="navigation__button__home__image"/>
             Home
         </a>
 
-        <a href="" class="navigation_button" id="navigation_button_reading">
-            <img class="button_icon" src="book_open.png" alt="img" id="reading_button_image"/>
+        <a href="reading.html" class="navigation__button" id="navigation__button__reading">
+            <img class="button__icon" src="book_open.png" alt="img" id="navigation__button__reading__image"/>
             Расклады
         </a>
 
-        <a href="meaning.html" class="navigation_button" id="navigation_button_meaning">
-            <img class="button_icon" src="heart.png" alt="img" id="meaning_button_image"/>
+        <a href="meaning.html" class="navigation__button" id="navigation__button__meaning">
+            <img class="button__icon" src="heart.png" alt="img" id="navigation__button__meaning__image"/>
             Значения
         </a>
 
-        <a href="" class="navigation_button" id="navigation_button_profile">
-            <img class="button_icon" src="profile.png" alt="img" id="profile_button_image"/>
+        <a href="profile.html" class="navigation__button" id="navigation__button__profile">
+            <img class="button__icon" src="profile.png" alt="img" id="navigation__button__profile__image"/>
             Профиль
         </a>
-        <button type="button" class="navigation_button_sign_in">Войти</button>
+        <button type="button" class="navigation__button__sign-in">Войти</button>
     </nav>
 </header>
+
 <main>
-    <p id="article_heading" class="text_heading">Значения</p>
-    <p id="article_body" class="text_normal">каждая карта имеет свое значение в зависимости от расклада и окружающих
+    <p id="article-heading" class="text-heading">Значения</p>
+    <p id="article_body" class="text-normal">каждая карта имеет свое значение в зависимости от расклада и окружающих
         арканов, но и по отдельности любая из них несет
         сакральный смысл и символизирует определенный аспект жизни</p>
-    <div class="table table_meaning">
-        <div class="wrapper wrapper_meaning_card header_table">
-            <div class="nested text_normal header_table_element table_element">Номер</div>
-            <div class="nested text_normal header_table_element table_element">Название</div>
-            <div class="nested text_normal header_table_element table_element">Стихия</div>
-            <div class="nested text_normal header_table_element table_element">Значение в прямом положении</div>
-            <div class="nested text_normal header_table_element table_element">Значение в перевернутом положении</div>
+    <div class="table table__meaning">
+        <div class="wrapper wrapper__meaning__card table__header">
+            <div class="nested text-normal table__header__element table__element">Номер</div>
+            <div class="nested text-normal table__header__element table__element">Название</div>
+            <div class="nested text-normal table__header__element table__element">Стихия</div>
+            <div class="nested text-normal table__header__element table__element">Значение в прямом положении</div>
+            <div class="nested text-normal table__header__element table__element">Значение в перевернутом положении</div>
         </div>
-        <div class="wrapper wrapper_meaning_card wrapper_even">
-            <div class="nested text_normal table_element">0</div>
-            <div class="nested text_normal table_element">Дурак</div>
-            <div class="nested text_normal table_element">Воздух</div>
-            <div class="nested text_normal table_element">старт чего-то нового, начала движения, создания условий,
+        <div class="wrapper wrapper__meaning__card wrapper-even">
+            <div class="nested text-normal table__element">0</div>
+            <div class="nested text-normal table__element">Дурак</div>
+            <div class="nested text-normal table__element">Воздух</div>
+            <div class="nested text-normal table__element">старт чего-то нового, начала движения, создания условий,
                 усилий или потоков. Карта несет смысл спонтанности, неожиданности, душевного обновления
             </div>
-            <div class="nested text_normal table_element">неоправданные, скоропалительные, необдуманные решения,
+            <div class="nested text-normal table__element">неоправданные, скоропалительные, необдуманные решения,
                 неподготовленность к событиям, неприятные сюрпризы, нежелание расстаться с прошлым, обреченность
             </div>
         </div>
-        <div class="wrapper wrapper_meaning_card wrapper_odd">
-            <div class="nested text_normal table_element">1</div>
-            <div class="nested text_normal table_element">Маг</div>
-            <div class="nested text_normal table_element">Воздух</div>
-            <div class="nested text_normal table_element">в прямом положении карта означает, что у человека есть
+        <div class="wrapper wrapper__meaning__card wrapper-odd">
+            <div class="nested text-normal table__element">1</div>
+            <div class="nested text-normal table__element">Маг</div>
+            <div class="nested text-normal table__element">Воздух</div>
+            <div class="nested text-normal table__element">в прямом положении карта означает, что у человека есть
                 достаточно сил, способностей и энергии, чтобы начать дело и довести его до конца. Все зависит только от
                 его желания
             </div>
-            <div class="nested text_normal table_element">перевернутое значение карты рекомендует браться за дело с
+            <div class="nested text-normal table__element">перевернутое значение карты рекомендует браться за дело с
                 осторожностью. Так как на пути к успеху могут встать неуверенность в себе, упущенные шансы,
                 предательство, манипуляции
             </div>
         </div>
-        <div class="wrapper wrapper_meaning_card wrapper_even">
-            <div class="nested text_normal table_element">2</div>
-            <div class="nested text_normal table_element">Верховная Жрица</div>
-            <div class="nested text_normal table_element">Вода</div>
-            <div class="nested text_normal table_element">бессознательное, интуиция, тайна, духовность, высшая сила,
+        <div class="wrapper wrapper__meaning__card wrapper-even">
+            <div class="nested text-normal table__element">2</div>
+            <div class="nested text-normal table__element">Верховная Жрица</div>
+            <div class="nested text-normal table__element">Вода</div>
+            <div class="nested text-normal table__element">бессознательное, интуиция, тайна, духовность, высшая сила,
                 внутренний голос
             </div>
-            <div class="nested text_normal table_element">подавленная интуиция, скрытые мотивы, поверхностность,
+            <div class="nested text-normal table__element">подавленная интуиция, скрытые мотивы, поверхностность,
                 замешательство, когнитивный диссонанс
             </div>
         </div>
-        <div class="wrapper wrapper_meaning_card wrapper_odd">
-            <div class="nested text_normal table_element">3</div>
-            <div class="nested text_normal table_element">Императрица</div>
-            <div class="nested text_normal table_element">Земля</div>
-            <div class="nested text_normal table_element">успех в делах, везение, отличное завершение текущих дел,
+        <div class="wrapper wrapper__meaning__card wrapper-odd">
+            <div class="nested text-normal table__element">3</div>
+            <div class="nested text-normal table__element">Императрица</div>
+            <div class="nested text-normal table__element">Земля</div>
+            <div class="nested text-normal table__element">успех в делах, везение, отличное завершение текущих дел,
                 богатство, власть, плодородие, материнство
             </div>
-            <div class="nested text_normal table_element">черная полоса в жизни, материальные трудности, разлад в
+            <div class="nested text-normal table__element">черная полоса в жизни, материальные трудности, разлад в
                 семейной жизни, неудачи, бесплодие, одиночество, внутренний хаос
             </div>
         </div>
-        <div class="wrapper wrapper_meaning_card wrapper_even">
-            <div class="nested text_normal table_element">4</div>
-            <div class="nested text_normal table_element">Император</div>
-            <div class="nested text_normal table_element">Огонь</div>
-            <div class="nested text_normal table_element">превосходство разума, лидерство, амбиции, авторитет</div>
-            <div class="nested text_normal table_element">слабость, эмоциональная незрелость, бунтарство, зависимость
+        <div class="wrapper wrapper__meaning__card wrapper-even">
+            <div class="nested text-normal table__element">4</div>
+            <div class="nested text-normal table__element">Император</div>
+            <div class="nested text-normal table__element">Огонь</div>
+            <div class="nested text-normal table__element">превосходство разума, лидерство, амбиции, авторитет</div>
+            <div class="nested text-normal table__element">слабость, эмоциональная незрелость, бунтарство, зависимость
             </div>
         </div>
-        <div class="wrapper wrapper_meaning_card wrapper_odd">
-            <div class="nested text_normal table_element">5</div>
-            <div class="nested text_normal table_element">Верховный Жрец</div>
-            <div class="nested text_normal table_element">Земля</div>
-            <div class="nested text_normal table_element">традиция и консервативный подход. Мораль, этика, религия.
+        <div class="wrapper wrapper__meaning__card wrapper-odd">
+            <div class="nested text-normal table__element">5</div>
+            <div class="nested text-normal table__element">Верховный Жрец</div>
+            <div class="nested text-normal table__element">Земля</div>
+            <div class="nested text-normal table__element">традиция и консервативный подход. Мораль, этика, религия.
                 Учеба, образование
             </div>
-            <div class="nested text_normal table_element">нетрадиционный подход. Бездуховность. Нарушение моральных
+            <div class="nested text-normal table__element">нетрадиционный подход. Бездуховность. Нарушение моральных
                 принципов. Нежелание учиться и извлекать уроки
             </div>
         </div>
-        <div class="wrapper wrapper_meaning_card wrapper_even">
-            <div class="nested text_normal table_element">6</div>
-            <div class="nested text_normal table_element">Влюбленные</div>
-            <div class="nested text_normal table_element">Воздух</div>
-            <div class="nested text_normal table_element">любовь, доверие, искренние чувства, выбор</div>
-            <div class="nested text_normal table_element">конец отношениям, измена, нетерпение</div>
+        <div class="wrapper wrapper__meaning__card wrapper-even">
+            <div class="nested text-normal table__element">6</div>
+            <div class="nested text-normal table__element">Влюбленные</div>
+            <div class="nested text-normal table__element">Воздух</div>
+            <div class="nested text-normal table__element">любовь, доверие, искренние чувства, выбор</div>
+            <div class="nested text-normal table__element">конец отношениям, измена, нетерпение</div>
         </div>
-        <div class="wrapper wrapper_meaning_card wrapper_odd">
-            <div class="nested text_normal table_element">7</div>
-            <div class="nested text_normal table_element">Колесница</div>
-            <div class="nested text_normal table_element">Вода</div>
-            <div class="nested text_normal table_element">успех, победа, быстрое продвижение вперед, оптимизм,
+        <div class="wrapper wrapper__meaning__card wrapper-odd">
+            <div class="nested text-normal table__element">7</div>
+            <div class="nested text-normal table__element">Колесница</div>
+            <div class="nested text-normal table__element">Вода</div>
+            <div class="nested text-normal table__element">успех, победа, быстрое продвижение вперед, оптимизм,
                 активность,поездки
             </div>
-            <div class="nested text_normal table_element">нестабильность, недостаток контроля над ситуацией, задержки,
+            <div class="nested text-normal table__element">нестабильность, недостаток контроля над ситуацией, задержки,
                 препятствия на пути
             </div>
         </div>
-        <div class="wrapper wrapper_meaning_card wrapper_even">
-            <div class="nested text_normal table_element">8</div>
-            <div class="nested text_normal table_element">Сила</div>
-            <div class="nested text_normal table_element">Огонь</div>
-            <div class="nested text_normal table_element">в прямом положении карта означает силу духа, волю, победу над
+        <div class="wrapper wrapper__meaning__card wrapper-even">
+            <div class="nested text-normal table__element">8</div>
+            <div class="nested text-normal table__element">Сила</div>
+            <div class="nested text-normal table__element">Огонь</div>
+            <div class="nested text-normal table__element">в прямом положении карта означает силу духа, волю, победу над
                 обстоятельствами, но в первую очередь над собой. Энергию, триумф, баланс внутренней и внешней силы
                 приводит к успеху
             </div>
-            <div class="nested text_normal table_element">перевернутое значение карты говорит о неуверенности в себе,
+            <div class="nested text-normal table__element">перевернутое значение карты говорит о неуверенности в себе,
                 проигрыше, гневливости. Это сила, подавленная внутренним хаосом и слабостями. Человек может спасовать
                 перед обстоятельствами или другим человеком.
             </div>
         </div>
-        <div class="wrapper wrapper_meaning_card wrapper_odd">
-            <div class="nested text_normal table_element">9</div>
-            <div class="nested text_normal table_element">Отшельник</div>
-            <div class="nested text_normal table_element">Земля</div>
-            <div class="nested text_normal table_element">мудрость, знание, опыт, самопознание, духовный рост,
+        <div class="wrapper wrapper__meaning__card wrapper-odd">
+            <div class="nested text-normal table__element">9</div>
+            <div class="nested text-normal table__element">Отшельник</div>
+            <div class="nested text-normal table__element">Земля</div>
+            <div class="nested text-normal table__element">мудрость, знание, опыт, самопознание, духовный рост,
                 благоразумие, самоограничение
             </div>
-            <div class="nested text_normal table_element">подозрительность, обман, коррупция, укрывательство,
+            <div class="nested text-normal table__element">подозрительность, обман, коррупция, укрывательство,
                 одиночество, изоляция
             </div>
         </div>
-        <div class="wrapper wrapper_meaning_card wrapper_even">
-            <div class="nested text_normal table_element">10</div>
-            <div class="nested text_normal table_element">Колесо Фортуны</div>
-            <div class="nested text_normal table_element">Огонь</div>
-            <div class="nested text_normal table_element">карта в прямом положении говорит о великой удаче, которая вас
+        <div class="wrapper wrapper__meaning__card wrapper-even">
+            <div class="nested text-normal table__element">10</div>
+            <div class="nested text-normal table__element">Колесо Фортуны</div>
+            <div class="nested text-normal table__element">Огонь</div>
+            <div class="nested text-normal table__element">карта в прямом положении говорит о великой удаче, которая вас
                 ожидает. Разыгравшийся азарт приведет к принятию важных решений. Однако повлиять на что-то не получится,
                 на все воля Судьбы — плывите по течению и наслаждайтесь дарованным успехом
             </div>
-            <div class="nested text_normal table_element">карта в перевернутом положении указывает на невезение.
+            <div class="nested text-normal table__element">карта в перевернутом положении указывает на невезение.
                 Вероятно, вы находитесь в тупике, и этот застой мешает развиваться и расти как духовно, так и в
                 профессиональном плане
             </div>
         </div>
-        <div class="wrapper wrapper_meaning_card wrapper_odd">
-            <div class="nested text_normal table_element">11</div>
-            <div class="nested text_normal table_element">Справедливость</div>
-            <div class="nested text_normal table_element">Воздух</div>
-            <div class="nested text_normal table_element">карта в прямом положении говорит о наступлении периода
+        <div class="wrapper wrapper__meaning__card wrapper-odd">
+            <div class="nested text-normal table__element">11</div>
+            <div class="nested text-normal table__element">Справедливость</div>
+            <div class="nested text-normal table__element">Воздух</div>
+            <div class="nested text-normal table__element">карта в прямом положении говорит о наступлении периода
                 гармонии. Важно лишь быть ответственным за все свои поступки
             </div>
-            <div class="nested text_normal table_element">карта в перевернутом положении предупреждает о провале.
+            <div class="nested text-normal table__element">карта в перевернутом положении предупреждает о провале.
                 Пересмотрите свое окружение: вероятно кто-то клевещет на вас
             </div>
         </div>
-        <div class="wrapper wrapper_meaning_card wrapper_even">
-            <div class="nested text_normal table_element">12</div>
-            <div class="nested text_normal table_element">Повешенный</div>
-            <div class="nested text_normal table_element">Вода</div>
-            <div class="nested text_normal table_element">карта в целом говорит, что иногда проще переждать бурю, чем
+        <div class="wrapper wrapper__meaning__card wrapper-even">
+            <div class="nested text-normal table__element">12</div>
+            <div class="nested text-normal table__element">Повешенный</div>
+            <div class="nested text-normal table__element">Вода</div>
+            <div class="nested text-normal table__element">карта в целом говорит, что иногда проще переждать бурю, чем
                 бороться с ней. Доверьтесь обстоятельствам. Не всегда все надо брать в свои руки. Это период испытаний,
                 который не наказывает, но учит
             </div>
-            <div class="nested text_normal table_element">перевернутая карта в классической трактовке означает ненужные
+            <div class="nested text-normal table__element">перевернутая карта в классической трактовке означает ненужные
                 жертвы, ловушки сознания, неправильный путь
             </div>
         </div>
-        <div class="wrapper wrapper_meaning_card wrapper_odd">
-            <div class="nested text_normal table_element">13</div>
-            <div class="nested text_normal table_element">Смерть</div>
-            <div class="nested text_normal table_element">Вода</div>
-            <div class="nested text_normal table_element">новый период в жизни, освобождение и пробуждение. Кардинальные
+        <div class="wrapper wrapper__meaning__card wrapper-odd">
+            <div class="nested text-normal table__element">13</div>
+            <div class="nested text-normal table__element">Смерть</div>
+            <div class="nested text-normal table__element">Вода</div>
+            <div class="nested text-normal table__element">новый период в жизни, освобождение и пробуждение. Кардинальные
                 изменения, расставание, духовный кризис, конец определенного этапа или завершение какого-либо дела
             </div>
-            <div class="nested text_normal table_element">отсутствие мотивации, застой, потери, отрицание, сложность
+            <div class="nested text-normal table__element">отсутствие мотивации, застой, потери, отрицание, сложность
                 сделать новый рывок, застревание в переходном этапе, зависание в проблеме
             </div>
         </div>
-        <div class="wrapper wrapper_meaning_card wrapper_even">
-            <div class="nested text_normal table_element">14</div>
-            <div class="nested text_normal table_element">Умеренность</div>
-            <div class="nested text_normal table_element">Огонь</div>
-            <div class="nested text_normal table_element">терпение, гармония, безопасная жизнь, период восстановления,
+        <div class="wrapper wrapper__meaning__card wrapper-even">
+            <div class="nested text-normal table__element">14</div>
+            <div class="nested text-normal table__element">Умеренность</div>
+            <div class="nested text-normal table__element">Огонь</div>
+            <div class="nested text-normal table__element">терпение, гармония, безопасная жизнь, период восстановления,
                 бережливость, экономия
             </div>
-            <div class="nested text_normal table_element">отсутствие цели, не пройденное испытание, неразумные поступки,
+            <div class="nested text-normal table__element">отсутствие цели, не пройденное испытание, неразумные поступки,
                 разочарование, вспыльчивость, фанатизм
             </div>
         </div>
-        <div class="wrapper wrapper_meaning_card wrapper_odd">
-            <div class="nested text_normal table_element">15</div>
-            <div class="nested text_normal table_element">Дьявол</div>
-            <div class="nested text_normal table_element">Земля</div>
-            <div class="nested text_normal table_element">в прямом положении указывает на тщеславие, эгоизм, искушения,
+        <div class="wrapper wrapper__meaning__card wrapper-odd">
+            <div class="nested text-normal table__element">15</div>
+            <div class="nested text-normal table__element">Дьявол</div>
+            <div class="nested text-normal table__element">Земля</div>
+            <div class="nested text-normal table__element">в прямом положении указывает на тщеславие, эгоизм, искушения,
                 садизм. На все низменные желания и качества личности
             </div>
-            <div class="nested text_normal table_element">в перевернутом виде может указывать на наличие внутренней
+            <div class="nested text-normal table__element">в перевернутом виде может указывать на наличие внутренней
                 силы, нерешительность или злоупотребление силой
             </div>
         </div>
-        <div class="wrapper wrapper_meaning_card wrapper_even">
-            <div class="nested text_normal table_element">16</div>
-            <div class="nested text_normal table_element">Башня</div>
-            <div class="nested text_normal table_element">Огонь</div>
-            <div class="nested text_normal table_element">разрушение; освобождение; то, что построено на обмане или на
+        <div class="wrapper wrapper__meaning__card wrapper-even">
+            <div class="nested text-normal table__element">16</div>
+            <div class="nested text-normal table__element">Башня</div>
+            <div class="nested text-normal table__element">Огонь</div>
+            <div class="nested text-normal table__element">разрушение; освобождение; то, что построено на обмане или на
                 зыбкой основе, существовать не может; разрушение того, что мешает и сковывает; не нужно сопротивляться
                 грядущим переменам, даже если они выглядят страшными
             </div>
-            <div class="nested text_normal table_element">тоже разрушения, но меньшего масштаба; потери и убытки,
+            <div class="nested text-normal table__element">тоже разрушения, но меньшего масштаба; потери и убытки,
                 которые будет не так сложно возместить; причинно-следственные связи из прошлого
             </div>
         </div>
-        <div class="wrapper wrapper_meaning_card wrapper_odd">
-            <div class="nested text_normal table_element">17</div>
-            <div class="nested text_normal table_element">Звезда</div>
-            <div class="nested text_normal table_element">Воздух</div>
-            <div class="nested text_normal table_element">символизирует надежду, хорошее будущее, жизненную энергию.
+        <div class="wrapper wrapper__meaning__card wrapper-odd">
+            <div class="nested text-normal table__element">17</div>
+            <div class="nested text-normal table__element">Звезда</div>
+            <div class="nested text-normal table__element">Воздух</div>
+            <div class="nested text-normal table__element">символизирует надежду, хорошее будущее, жизненную энергию.
                 Напоминает о том, что у вас есть сила духа и стремление к самореализации
             </div>
-            <div class="nested text_normal table_element">перевернутая карта в классической трактовке означает потерю
+            <div class="nested text-normal table__element">перевернутая карта в классической трактовке означает потерю
                 веры во что-то значимое, потерю терпения и наличие трудностей
             </div>
         </div>
-        <div class="wrapper wrapper_meaning_card wrapper_even">
-            <div class="nested text_normal table_element">18</div>
-            <div class="nested text_normal table_element">Луна</div>
-            <div class="nested text_normal table_element">Вода</div>
-            <div class="nested text_normal table_element">мечта, страх, неуверенность в себе, обман</div>
-            <div class="nested text_normal table_element">хаос, непонимание, выгодные перемены, тревога</div>
+        <div class="wrapper wrapper__meaning__card wrapper-even">
+            <div class="nested text-normal table__element">18</div>
+            <div class="nested text-normal table__element">Луна</div>
+            <div class="nested text-normal table__element">Вода</div>
+            <div class="nested text-normal table__element">мечта, страх, неуверенность в себе, обман</div>
+            <div class="nested text-normal table__element">хаос, непонимание, выгодные перемены, тревога</div>
         </div>
-        <div class="wrapper wrapper_meaning_card wrapper_odd">
-            <div class="nested text_normal table_element">19</div>
-            <div class="nested text_normal table_element">Солнце</div>
-            <div class="nested text_normal table_element">Огонь</div>
-            <div class="nested text_normal table_element">карта Солнце — символ света, радости, успеха, благополучия и
+        <div class="wrapper wrapper__meaning__card wrapper-odd">
+            <div class="nested text-normal table__element">19</div>
+            <div class="nested text-normal table__element">Солнце</div>
+            <div class="nested text-normal table__element">Огонь</div>
+            <div class="nested text-normal table__element">карта Солнце — символ света, радости, успеха, благополучия и
                 счастья. В большинстве раскладов карта трактуется как новое начало, благоприятное разрешение ситуации и
                 удачу
             </div>
-            <div class="nested text_normal table_element">в перевернутом положении карта указывает на временные
+            <div class="nested text-normal table__element">в перевернутом положении карта указывает на временные
                 трудности: например, недостаток сил и энергии или неопределенность в собственных желаниях. Впрочем, даже
                 в перевернутом положении карта говорит о хорошей возможности удачно разрешить ситуацию
             </div>
         </div>
-        <div class="wrapper wrapper_meaning_card wrapper_even">
-            <div class="nested text_normal table_element">20</div>
-            <div class="nested text_normal table_element">Страшный Суд</div>
-            <div class="nested text_normal table_element">Вода/Огонь</div>
-            <div class="nested text_normal table_element">карта говорит о пробуждении и возрождении. Встретьтесь с
+        <div class="wrapper wrapper__meaning__card wrapper-even">
+            <div class="nested text-normal table__element">20</div>
+            <div class="nested text-normal table__element">Страшный Суд</div>
+            <div class="nested text-normal table__element">Вода/Огонь</div>
+            <div class="nested text-normal table__element">карта говорит о пробуждении и возрождении. Встретьтесь с
                 прошлым, примите его и понесите ответственность за содеянное
             </div>
-            <div class="nested text_normal table_element">чаще всего карта указывает на излишнюю суровость в оценке и
+            <div class="nested text-normal table__element">чаще всего карта указывает на излишнюю суровость в оценке и
                 себя, и окружающих. Порой необходимо найти в себе силы для прощения
             </div>
         </div>
-        <div class="wrapper wrapper_meaning_card wrapper_odd last_element">
-            <div class="nested text_normal table_element">21</div>
-            <div class="nested text_normal table_element">Мир</div>
-            <div class="nested text_normal table_element">Земля</div>
-            <div class="nested text_normal table_element">карта говорит о раскрепощенности, свободе, реализации,
+        <div class="wrapper wrapper__meaning__card wrapper-odd last_element">
+            <div class="nested text-normal table__element">21</div>
+            <div class="nested text-normal table__element">Мир</div>
+            <div class="nested text-normal table__element">Земля</div>
+            <div class="nested text-normal table__element">карта говорит о раскрепощенности, свободе, реализации,
                 достижении и призвании
             </div>
-            <div class="nested text_normal table_element">в традиционной трактовке означает нехватку опыта, застой,
+            <div class="nested text-normal table__element">в традиционной трактовке означает нехватку опыта, застой,
                 несовершенство и боязнь перемен
             </div>
         </div>
@@ -298,6 +301,7 @@
 </main>
 <footer>
     &#0169 maranln
+    <div id="footer-time"></div>
 </footer>
 
 

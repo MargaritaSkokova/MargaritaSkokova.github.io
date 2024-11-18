@@ -25,6 +25,10 @@
     src: url("Raleway-Light.ttf");
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: #f0eef4
 }
@@ -40,7 +44,7 @@ body {
     height: 55px;
 }
 
-#name_app {
+#name-app {
     color: #48466C;
     display: inline;
     font-size: 48px;
@@ -56,18 +60,18 @@ body {
     margin-top: 10px
 }
 
-.text_heading {
+.text-heading {
     color: #9C9AC0;
     font-family: CormorantSC, Arial, Helvetica, sans-serif;
 }
 
-.text_normal {
+.text-normal {
     color: #48466C;
     font-family: Raleway, serif;
     font-size: 20px;
 }
 
-#article_heading {
+#article-heading {
     font-size: 80px;
     margin: 20px 35px 0;
 }
@@ -86,7 +90,7 @@ footer {
     text-align: center
 }
 
-.navigation_button_sign_in {
+.navigation__button__sign-in {
     background-color: #48466C;
     border: none;
     color: white;
@@ -101,11 +105,11 @@ footer {
     vertical-align: 10px
 }
 
-.navigation_button_sign_in:hover {
+.navigation__button__sign-in:hover {
     background-color: #9C9AC0;
 }
 
-.button_icon {
+.button__icon {
     width: 20px;
     height: 20px;
     margin-right: 4px;
@@ -114,7 +118,7 @@ footer {
 }
 
 
-.navigation_button {
+.navigation__button {
     font-family: Сleanvertising, serif;
     font-weight: bold;
     vertical-align: 10px;
@@ -133,7 +137,7 @@ footer {
     border-radius: 20px;
 }
 
-.table_meaning {
+.table__meaning {
     margin-top: 20px;
     margin-left: 35px;
     margin-right: 35px;
@@ -148,30 +152,30 @@ footer {
     align-items: center;
 }
 
-.wrapper_meaning_card {
+.wrapper__meaning__card {
     margin-right: 15px;
     margin-left: 15px;
 }
 
-.header_table {
+.table__header {
     background: #9C9AC0;
     margin-top: 15px;
 }
 
-.wrapper_even {
+.wrapper-even {
     background: #dbd9ef;
 }
 
-.wrapper_odd {
+.wrapper-odd {
     background: #f4f3f7;
 }
 
-.table_element {
+.table__element {
     font-size: 1.5vmax;
     margin: 3px;
 }
 
-.header_table_element {
+.table__header__element {
     color: #FFFFFF;
     margin: 15px;
 }
@@ -184,12 +188,12 @@ footer {
     margin-bottom: 15px;
 }
 
-.navigation_button:hover {
+.navigation__button:hover {
     color: #9C9AC0;
 }
 
 @media (max-width: 499px) {
-    #name_app {
+    #name-app {
         font-size: 0;
     }
 
@@ -206,12 +210,12 @@ footer {
         margin-left: auto;
     }
 
-    .table_element {
+    .table__element {
         font-size: 1.1vmax;
         margin: 0;
     }
 
-    .header_table_element {
+    .table__header__element {
         margin: 5px;
     }
 
@@ -220,12 +224,12 @@ footer {
         row-gap: 0;
     }
 
-    .table_meaning {
+    .table__meaning {
         margin-left: 0;
         margin-right: 0;
     }
 
-    .wrapper_meaning_card {
+    .wrapper__meaning__card {
         margin-right: 1px;
         margin-left: 1px;
     }
@@ -237,15 +241,15 @@ footer {
 
 @media (max-width: 320px) {
 
-    .wrapper_meaning_card {
+    .wrapper__meaning__card {
         margin-right: 0;
         margin-left: 0;
     }
-    .header_table {
+    .table__header {
         margin-top: 0;
     }
 
-    .table_element {
+    .table__element {
         font-size: 1.25vmax;
     }
 }
@@ -256,24 +260,24 @@ footer {
         row-gap: 10px;
     }
 
-    .table_meaning {
+    .table__meaning {
         margin-left: 3px;
         margin-right: 3px;
     }
 
-    #navigation_button_profile {
+    #navigation__button__profile {
         font-size: 0;
     }
 
-    #navigation_button_home {
+    #navigation___button___home {
         font-size: 0;
     }
 
-    #navigation_button_reading {
+    #navigation__button__reading {
         font-size: 0;
     }
 
-    #navigation_button_meaning {
+    #navigation__button__meaning {
         font-size: 0;
     }
 
@@ -281,11 +285,11 @@ footer {
         flex-flow: column;
     }
 
-    .wrapper_meaning_card {
+    .wrapper__meaning__card {
         margin-right: 5px;
         margin-left: 5px;
     }
-    .header_table {
+    .table__header {
         margin-top: 5px;
     }
 }

@@ -1,0 +1,115 @@
+<!doctype html>
+<html class="no-js" lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tarot</title>
+    <link rel="stylesheet" href="css/style_reading.css">
+
+    <link rel="icon" href="/icon_white.ico" sizes="any">
+    <link rel="icon" href="/icon_white.svg" type="image/svg+xml">
+    <link rel="icon" type="image/x-icon" href="./favicon.ico">
+    <link rel="apple-touch-icon" href="icon_white.png">
+
+</head>
+<body>
+
+<header class="header">
+    <img id="icon" src="tarot_icon.png" alt="tarot logo"/>
+    <h1 id="name-app">TAROT</h1>
+    <nav id="navigation">
+        <a href="index.html" class="navigation__button" id="navigation__button__home">
+            <img class="button__icon" src="home.png" alt="img" id="navigation__button__home__image"/>
+            Home
+        </a>
+
+        <a href="reading.html" class="navigation__button" id="navigation__button__reading">
+            <img class="button__icon" src="book_open.png" alt="img" id="navigation__button__reading__image"/>
+            Расклады
+        </a>
+
+        <a href="meaning.html" class="navigation__button" id="navigation__button__meaning">
+            <img class="button__icon" src="heart.png" alt="img" id="navigation__button__meaning__image"/>
+            Значения
+        </a>
+
+        <a href="profile.html" class="navigation__button" id="navigation__button__profile">
+            <img class="button__icon" src="profile.png" alt="img" id="navigation__button__profile__image"/>
+            Профиль
+        </a>
+        <button type="button" class="navigation__button__sign-in">Войти</button>
+    </nav>
+</header>
+
+<main>
+    <p class="text-heading" id="article-heading">О чем вы боялись спросить...</p>
+    <div class="carousel">
+        <ul class="carousel__list">
+            <li class="carousel__item" data-pos="-2" id="carousel__item__first">1</li>
+            <li class="carousel__item" data-pos="-1" id="carousel__item__second">2</li>
+            <li class="carousel__item" data-pos="0" id="carousel__item__third">3</li>
+            <li class="carousel__item" data-pos="1" id="carousel__item__fourth">4</li>
+            <li class="carousel__item" data-pos="2" id="carousel__item__fifth">5</li>
+        </ul>
+    </div>
+
+    <p class="text-normal" id="description">Базовый раcклад, чтобы узнать, какое место этот день занимает в вашей
+        жизни</p>
+
+    <p class="text-heading" id="form_heading">Закажите расклад: </p>
+    <div class="table table__form">
+        <form class="wrapper wrapper__form table__header" action="" method="POST" id="form_reading">
+            <div class="nested text-normal table__header__element table__element">
+                <p class="table__element__form-element"><label for="table_element__form-element__name">Имя:</label></p>
+                <p class="table__element__form-element"><input type="text" name="name" id="table_element__form-element__name"
+                                                               required
+                                                               placeholder="Назовите имя" class="text-normal form__element"></p>
+            </div>
+            <div class="nested text-normal table__header__element table__element">
+                <p class="table__element__form-element"><label for="table_element__form-element__deck-choose">Колода:</label></p>
+                <p class="table__element__form-element"><select id="table_element__form-element__deck-choose" required name="deck" class="text-normal form__element">
+                    <option value="">-- Не выбрано --</option>
+                    <option value="manara">Манара</option>
+                    <option value="lenorman">Марии Ленорман</option>
+                    <option value="waite">Уейта</option>
+                    <option value="saint_muerte">Святой смерти</option>
+                </select></p>
+            </div>
+            <div class="nested text-normal table__header__element table__element">
+                <p class="table__element__form-element"><label for="table_element__form-element__reader-choose">Гадалка:</label></p>
+                <p class="table__element__form-element"><select id="table_element__form-element__reader-choose" required name="reader" class="text-normal form__element">
+                    <option value="">-- Не выбрано --</option>
+                    <option value="default">Рита</option>
+                </select></p>
+            </div>
+            <div class="nested text-normal table__header__element table__element">
+                <p class="table__element__form-element"><label for="table_element__form-element__reading-choose">Вид расклада:</label></p>
+                <p class="table__element__form-element"><select id="table_element__form-element__reading-choose" required name="reading" class="text-normal form__element">
+                    <option value="">-- Не выбрано --</option>
+                    <option value="daily">Ежедневный</option>
+                    <option value="weekly">Еженедельный</option>
+                    <option value="love">Любовный</option>
+                    <option value="work">Рабочий</option>
+                    <option value="answer">Вопрос</option>
+                </select></p>
+            </div>
+            <button class="nested text-normal table__header__element table__element button-send" type="submit">Отправить
+            </button>
+        </form>
+    </div>
+</main>
+
+<footer>
+    &#0169 maranln
+    <div id="footer-time"></div>
+</footer>
+
+
+</body>
+
+<script src="./js/app.js"></script>
+<script src="./js/form.js"></script>
+<script src="./js/carousel.js"></script>
+
+</html>

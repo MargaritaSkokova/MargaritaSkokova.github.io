@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Tarot</title>
     <link rel="stylesheet" href="css/style.css">
+    <script src="./js/app.js"></script>
 
     <link rel="icon" href="/icon_white.ico" sizes="any">
     <link rel="icon" href="/icon_white.svg" type="image/svg+xml">
@@ -17,50 +18,50 @@
 
 <header class="header">
     <img id="icon" src="tarot_icon.png" alt="tarot logo"/>
-    <h1 id="name_app">TAROT</h1>
+    <h1 id="name-app">TAROT</h1>
     <nav id="navigation">
-        <a href="" class="navigation_button" id="navigation_button_home">
-            <img class="button_icon" src="home.png" alt="img" id="home_button_image"/>
+        <a href="index.html" class="navigation__button" id="navigation__button__home">
+            <img class="button__icon" src="home.png" alt="img" id="navigation__button__home__image"/>
             Home
         </a>
 
-        <a href="" class="navigation_button" id="navigation_button_reading">
-            <img class="button_icon" src="book_open.png" alt="img" id="reading_button_image"/>
+        <a href="reading.html" class="navigation__button" id="navigation__button__reading">
+            <img class="button__icon" src="book_open.png" alt="img" id="navigation__button__reading__image"/>
             Расклады
         </a>
 
-        <a href="meaning.html" class="navigation_button" id="navigation_button_meaning">
-            <img class="button_icon" src="heart.png" alt="img" id="meaning_button_image"/>
+        <a href="meaning.html" class="navigation__button" id="navigation__button__meaning">
+            <img class="button__icon" src="heart.png" alt="img" id="navigation__button__meaning__image"/>
             Значения
         </a>
 
-        <a href="" class="navigation_button" id="navigation_button_profile">
-            <img class="button_icon" src="profile.png" alt="img" id="profile_button_image"/>
+        <a href="profile.html" class="navigation__button" id="navigation__button__profile">
+            <img class="button__icon" src="profile.png" alt="img" id="navigation__button__profile__image"/>
             Профиль
         </a>
-        <button type="button" class="navigation_button_sign_in">Войти</button>
+        <button type="button" class="navigation__button__sign-in">Войти</button>
     </nav>
 </header>
 <main>
     <div class="main_block">
         <div id="text_block">
-            <p class="text_heading" id="article_heading">Узнайте свою судьбу</p>
-            <p class="text_normal" id="article_body"> Карты таро —
+            <p class="text-heading" id="article-heading">Узнайте свою судьбу</p>
+            <p class="text-normal" id="article-body"> Карты таро —
                 колода карт, используемая с середины XIV века в различных частях Европы для карточных игр, во многие из
                 которых
                 играют
                 и сегодня. С конца XVIII века карты таро стали использоваться и для предсказания.</p>
         </div>
 
-        <div id="image_block">
+        <div id="image-block">
             <img src="back.jpg" alt="card_back" class="image_block_card" id="image_block_card_back_most_tilted">
             <img src="back.jpg" alt="card_back" class="image_block_card" id="image_block_card_back_tilted">
             <img src="moon.png" alt="card_moon" class="image_block_card" id="image_block_card_front">
         </div>
     </div>
-    <div class="list_block">
-        <p class="text_heading" id="text_heading_list">Виды предлагаемых раскладов: </p>
-        <ul id="list" class="text_normal"
+    <div class="list-block">
+        <p class="text-heading" id="text_heading_list">Виды предлагаемых раскладов: </p>
+        <ul id="list" class="text-normal"
             style="list-style-type: '&#10085'">
             <li>&nbspЕжедневный</li>
             <li>&nbspЕженедельный</li>
@@ -72,6 +73,7 @@
 </main>
 <footer>
     &#0169 maranln
+    <div id="footer-time"></div>
 </footer>
 
 
