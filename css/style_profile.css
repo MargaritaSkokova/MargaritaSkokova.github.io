@@ -126,3 +126,22 @@ footer {
         font-size: 0;
     }
 }
+
+@media (max-width: 725px) {
+
+    #navigation__button__profile {
+        font-size: 0;
+    }
+
+    #navigation__button__home {
+        font-size: 0;
+    }
+
+    #navigation__button__reading {
+        font-size: 0;
+    }
+
+    #navigation__button__meaning {
+        font-size: 0;
+    }
+}

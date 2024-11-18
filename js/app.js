@@ -11,7 +11,7 @@
 window.onload = function () {
     let navigation
     if (document.location.href.includes("index")) {
-        navigation = document.getElementById("navigation___button___home")
+        navigation = document.getElementById("navigation__button__home")
         console.log(navigation)
     } else if (document.location.href.includes("meaning")) {
         navigation = document.getElementById("navigation__button__meaning")
