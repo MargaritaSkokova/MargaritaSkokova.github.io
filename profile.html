@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Tarot</title>
     <link rel="stylesheet" href="css/style_profile.css">
-    <script src="./js/app.js"></script>
 
     <link rel="icon" href="/icon_white.ico" sizes="any">
     <link rel="icon" href="/icon_white.svg" type="image/svg+xml">
@@ -43,6 +42,43 @@
     </nav>
 </header>
 
+<main>
+    <img src="loading-gif.gif" class="loading">
+    <div class="container">
+        <div class="container__profile">
+            <div class="container__profile__information">
+                <p class="text-normal container__profile__information__nickname"></p>
+                <p class="text-normal container__profile__information__email"></p>
+            </div>
+            <div class="container__icon">
+                <img class="container__icon__image" src="avatar.png">
+            </div>
+        </div>
+        <div class="container__information text-normal">
+            <div class="container__information__element">
+                <p class="container__information__element__inner">Имя: </p>
+                <p class="container__information__element__inner__name"></p>
+            </div>
+            <div class="container__information__element">
+                <p class="container__information__element__inner">Телефон: </p>
+                <p class="container__information__element__inner__phone"></p>
+            </div>
+            <div class="container__information__element">
+                <p class="container__information__element__inner">Город: </p>
+                <p class="container__information__element__inner__address"></p>
+            </div>
+            <div class="container__information__element">
+                <p class="container__information__element__inner">Компания гадалки: </p>
+                <p class="container__information__element__inner__company"></p>
+            </div>
+            <div class="container__information__element">
+                <p class="container__information__element__inner">Личный сайт: </p>
+                <p class="container__information__element__inner__site"></p>
+            </div>
+        </div>
+    </div>
+</main>
+
 <footer>
     &#0169 maranln
     <div id="footer-time"></div>
@@ -50,5 +86,7 @@
 
 
 </body>
+
+<script src="./js/profile.js"></script>
 
 </html>

@@ -127,6 +127,69 @@ footer {
     }
 }
 
+.loading {
+    position: fixed;
+    inset: 0px;
+    height: 80px;
+    width: 80px;
+    margin: auto;
+}
+
+.container {
+    margin: 32px;
+    border: 2px solid white;
+    border-radius: 20px;
+}
+
+.container__profile {
+    border: 0 solid white;
+    border-radius: 20px;
+    background: #f4f3f7;
+    margin: 16px;
+    display: flex;
+    flex-direction: row;
+}
+
+.container__profile__information {
+    flex: 100%;
+    margin: auto;
+}
+
+.container__profile__information__nickname {
+    font-size: 52px;
+    margin: 16px 16px 16px 32px;
+}
+
+.container__profile__information__email {
+    font-size: 28px;
+    margin: 16px 16px 16px 32px;
+}
+
+.container__icon {
+    margin: 16px 32px 16px 16px;
+    flex: 1;
+}
+
+.container__icon__image {
+    height: 160px;
+    width: 160px;
+}
+
+.container__information {
+    margin-left: 48px;
+    margin-bottom: 32px;
+    margin-top: 32px;
+}
+
+.container__information__element {
+    display: flex;
+    flex-direction: row;
+}
+
+.container__information__element__inner {
+    margin-right: 16px;
+}
+
 @media (max-width: 725px) {
 
     #navigation__button__profile {
