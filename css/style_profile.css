@@ -191,6 +191,13 @@ footer {
 }
 
 @media (max-width: 725px) {
+    .container {
+        margin: 8px;
+    }
+
+    .container__icon__image {
+        display: none;
+    }
 
     #navigation__button__profile {
         font-size: 0;
