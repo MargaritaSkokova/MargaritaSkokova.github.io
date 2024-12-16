@@ -192,6 +192,26 @@ footer {
     color: #9C9AC0;
 }
 
+.slider__container__element__image{
+    display: block;
+    height: 500px;
+    border-radius: 20px;
+}
+
+.slider__container__element {
+    width: 33.3%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    counter-increment: slider__container__element;
+}
+
+.slider__container {
+    height: 500px;
+    margin-bottom: 32px;
+}
+
+
 @media (max-width: 499px) {
     #name-app {
         font-size: 0;
@@ -251,6 +271,23 @@ footer {
 
     .table__element {
         font-size: 1.25vmax;
+    }
+}
+
+@media (max-width: 900px) {
+    .slider__container__element {
+        width: 100%;
+    }
+}
+
+@media (max-width: 330px) {
+    .slider__container__element__image{
+        height: 300px;
+    }
+
+    .slider__container {
+        height: 320px;
+        margin-bottom: 32px;
     }
 }
 

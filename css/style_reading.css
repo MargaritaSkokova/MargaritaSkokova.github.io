@@ -185,27 +185,27 @@ footer {
 }
 
 .carousel__item:nth-child(1) {
-    background-image: url("../reading_work.png");
+    background-image: url("../img/reading_work.png");
     background-size: cover;
 }
 
 .carousel__item:nth-child(2) {
-    background-image: url("../reading_answer.png");
+    background-image: url("../img/reading_answer.png");
     background-size: cover;
 }
 
 .carousel__item:nth-child(3) {
-    background-image: url("../reading_daily.png");
+    background-image: url("../img/reading_daily.png");
     background-size: cover;
 }
 
 .carousel__item:nth-child(4) {
-    background-image: url("../reading_love.png");
+    background-image: url("../img/reading_love.png");
     background-size: cover;
 }
 
 .carousel__item:nth-child(5) {
-    background-image: url("../reading_weekly.png");
+    background-image: url("../img/reading_weekly.png");
     background-size: cover;
 }
 

@@ -6,36 +6,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Tarot</title>
     <link rel="stylesheet" href="css/style_meaning.css">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
 
-    <link rel="icon" href="/icon_white.ico" sizes="any">
-    <link rel="icon" href="/icon_white.svg" type="image/svg+xml">
-    <link rel="icon" type="image/x-icon" href="./favicon.ico">
-    <link rel="apple-touch-icon" href="icon_white.png">
+    <link rel="icon" href="/img/icon_white.ico" sizes="any">
+    <link rel="icon" href="/img/icon_white.svg" type="image/svg+xml">
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+    <link rel="apple-touch-icon" href="img/icon_white.png">
 
 </head>
 <body>
 
 <header class="header">
-    <img id="icon" src="tarot_icon.png" alt="tarot logo"/>
+    <img id="icon" src="img/tarot_icon.png" alt="tarot logo"/>
     <h1 id="name-app">TAROT</h1>
     <nav id="navigation">
         <a href="index.html" class="navigation__button" id="navigation__button__home">
-            <img class="button__icon" src="home.png" alt="img" id="navigation__button__home__image"/>
+            <img class="button__icon" src="img/home.png" alt="img" id="navigation__button__home__image"/>
             Home
         </a>
 
         <a href="reading.html" class="navigation__button" id="navigation__button__reading">
-            <img class="button__icon" src="book_open.png" alt="img" id="navigation__button__reading__image"/>
+            <img class="button__icon" src="img/book_open.png" alt="img" id="navigation__button__reading__image"/>
             Расклады
         </a>
 
         <a href="meaning.html" class="navigation__button" id="navigation__button__meaning">
-            <img class="button__icon" src="heart.png" alt="img" id="navigation__button__meaning__image"/>
+            <img class="button__icon" src="img/heart.png" alt="img" id="navigation__button__meaning__image"/>
             Значения
         </a>
 
         <a href="profile.html" class="navigation__button" id="navigation__button__profile">
-            <img class="button__icon" src="profile.png" alt="img" id="navigation__button__profile__image"/>
+            <img class="button__icon" src="img/profile.png" alt="img" id="navigation__button__profile__image"/>
             Профиль
         </a>
         <button type="button" class="navigation__button__sign-in">Войти</button>
@@ -47,6 +49,32 @@
     <p id="article_body" class="text-normal">каждая карта имеет свое значение в зависимости от расклада и окружающих
         арканов, но и по отдельности любая из них несет
         сакральный смысл и символизирует определенный аспект жизни</p>
+
+    <div class="slider__container">
+        <div class="slider__container__element"> <img class="slider__container__element__image" src="./img/0%20fool.png"></div>
+        <div class="slider__container__element"> <img class="slider__container__element__image" src="./img/1%20magician.png"></div>
+        <div class="slider__container__element"> <img class="slider__container__element__image" src="./img/2%20popess.png"></div>
+        <div class="slider__container__element"> <img class="slider__container__element__image" src="./img/3%20emperess.png"></div>
+        <div class="slider__container__element"> <img class="slider__container__element__image" src="./img/4%20emperor.png"></div>
+        <div class="slider__container__element"> <img class="slider__container__element__image" src="./img/5%20hierophant.png"></div>
+        <div class="slider__container__element"> <img class="slider__container__element__image" src="./img/6%20lovers.png"></div>
+        <div class="slider__container__element"> <img class="slider__container__element__image" src="./img/7%20the_chariot.png"></div>
+        <div class="slider__container__element"> <img class="slider__container__element__image" src="./img/8%20strength.png"></div>
+        <div class="slider__container__element"> <img class="slider__container__element__image" src="./img/9%20hermit.png"></div>
+        <div class="slider__container__element"> <img class="slider__container__element__image" src="./img/10%20the_wheel_of_fortune.png"></div>
+        <div class="slider__container__element"> <img class="slider__container__element__image" src="./img/11%20the_justice.png"></div>
+        <div class="slider__container__element"> <img class="slider__container__element__image" src="./img/12%20hanged_man.png"></div>
+        <div class="slider__container__element"> <img class="slider__container__element__image" src="./img/13%20death.png"></div>
+        <div class="slider__container__element"> <img class="slider__container__element__image" src="./img/14%20temperence.png"></div>
+        <div class="slider__container__element"> <img class="slider__container__element__image" src="./img/15%20devil.png"></div>
+        <div class="slider__container__element"> <img class="slider__container__element__image" src="./img/16%20tower.png"></div>
+        <div class="slider__container__element"> <img class="slider__container__element__image" src="./img/17%20star.png"></div>
+        <div class="slider__container__element"> <img class="slider__container__element__image" src="./img/18%20moon.png"></div>
+        <div class="slider__container__element"> <img class="slider__container__element__image" src="./img/19%20sun.png"></div>
+        <div class="slider__container__element"> <img class="slider__container__element__image" src="./img/20%20judgement.png"></div>
+        <div class="slider__container__element"> <img class="slider__container__element__image" src="./img/21%20world.png"></div>
+    </div>
+
     <div class="table table__meaning">
         <div class="wrapper wrapper__meaning__card table__header">
             <div class="nested text-normal table__header__element table__element">Номер</div>
@@ -305,5 +333,7 @@
 
 
 </body>
+
+<script src="./js/slider.js"></script>
 
 </html>
